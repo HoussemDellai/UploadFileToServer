@@ -25,7 +25,7 @@ private async void UploadFile_Clicked(object sender, EventArgs e)
         
 And shows to get and save that file with an ASP.NET application:
 
- public class UploadsController : ApiController
+    public class UploadsController : ApiController
     {
         [Route("api/Files/Upload")]
         public async Task<string> Post()
