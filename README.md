@@ -3,9 +3,9 @@ Upload a file from Xamarin Forms app to ASP.NET web application.
 
 This repo shows how to upload a file from Xamarin Forms app:
 
-private MediaFile _mediaFile;
+        private MediaFile _mediaFile;
 
-private async void UploadFile_Clicked(object sender, EventArgs e)
+        private async void UploadFile_Clicked(object sender, EventArgs e)
         {
             var content = new MultipartFormDataContent();
 
